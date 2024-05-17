@@ -27,12 +27,8 @@ Without location lookup:<br>
 
 USAGE:<br>
 
-./multiping.py -t <list of IPs space separated> <options>
+./multiping.py -t <list of IPs space separated> <options><br>
 
-options:
-  -h, --help    show this help message and exit
-  -t T [T ...]  In line IPv4 Targets. EG: multiping -t 8.8.8.8 1.1.1.1
-  -f F          Input file with target list line by line
-  -ll           enable location lookup
+![image](https://github.com/diegobernardelli/multiping/assets/152480651/b46d5323-4dde-4742-a6a1-f5a1618ffdd4)
 
-  Target IPs can be also imported via file by just listing them line by line
+Target IPs can be also imported via file by just listing them line by line<br>
