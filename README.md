@@ -2,19 +2,20 @@ Multiping is a tool built to ping multiple targets at the same time.<br>
 
 It is possible to lookup the target location based on its subnet by filling the "locations_net.json" json file using the below format:<br>
 
-{<br>
-    "sites": [<br>
-    	{<br>
-            "site_name": "US-NewYork",<br>
-            "networks": ["10.100.10.0/24", "10.100.20.0/24", "10.100.30.0/24"]<br>
-        },<br>
-        {<br>
-            "site_name": "SITE NAME",<br>
-            "networks": ["x.x.x.x/yy", "...", ...]<br>
-        },<br>
-        ....<br>
-    ]<br>
-}<br>
+<code>
+{
+    "sites": [
+        {
+            "site_name": "US-NewYork",
+            "networks": ["10.100.10.0/24", "10.100.20.0/24", "10.100.30.0/24"]
+        },
+        {
+            "site_name": "SITE NAME",
+            "networks": ["x.x.x.x/yy", "..."]
+        }
+    ]
+}
+</code>
 
 With -ll you enable the location lookup and the output is displayed like below:<br>
 
